@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+main {
+    padding: 10px 20px;
+    max-width: 900px;
+}
+
+.task {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.task h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.task p {
+    margin: 5px 0 10px;
+}
+
+input, select, button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 7px;
+    margin: 3px;
+}
+
+input[type="number"] {
+    width: 130px;
+}
+
+button {
+    cursor: pointer;
+    background: #f5f5f5;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #e8e8e8;
+}
+
+.result {
+    margin-top: 8px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+pre {
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+footer {
+    padding: 15px 20px;
+    color: #666;
+}
